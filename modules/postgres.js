@@ -3,11 +3,7 @@ const {Pool} = require("pg")
 let configg = require("../config")
 
 const config = {
-    host:configg.PGHOST,
-    user:configg.PGUSER,
-    max:20,
-    password:configg.PGPASS,
-    database:configg.PGDB
+    connectingString: 'postgres://otbawvnt:IAEtPv1WN7WZ1_LB2NDi_rsfyGv0S7xH@queenie.db.elephantsql.com:5432/otbawvnt'
 }
 
 

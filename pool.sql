@@ -7,4 +7,4 @@ CREATE TABLE users(
 );
 
 
-INSERT INTO users( user_name,user_age) VALUES ('Muhammad',17)
+-- INSERT INTO users( user_name,user_age) VALUES ('Muhammad',17)
